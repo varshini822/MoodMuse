@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MoodMuse* – Mood-based Music Player</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>MoodMuse*</h1>
+    <p>Let your mood choose the music 🎧</p>
+  </header>
+
+  <main>
+    <section class="mood-selector">
+      <h2>Select Your Mood</h2>
+      <div class="mood-buttons">
+        <button data-mood="happy">😊 Happy</button>
+        <button data-mood="sad">😢 Sad</button>
+        <button data-mood="relaxed">😌 Relaxed</button>
+        <button data-mood="energetic">⚡ Energetic</button>
+      </div>
+    </section>
+
+    <section class="music-player">
+      <h2>Now Playing</h2>
+      <div id="nowPlaying">🎵 Select a mood to start</div>
+      <audio id="audioPlayer" controls></audio>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MoodMuse*. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
